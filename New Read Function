@@ -14,7 +14,7 @@ def BMRfunc(list):                      #creates function to determine the BMR o
                                         #weight, height, and age all should be floating point numbers
 
     type = list[1]
-    age = int(list[2])
+    age = float(list[2])
     weight = float(list[3])
     height = float(list[4])
     BMR = 0
@@ -82,7 +82,7 @@ def create_client(dictionary):                                                  
     client_name_first = input('Please enter the client\'s first name: ')        #creates string from client's first name
     client_name_last = input('Please enter the client\'s last name: ')          #creates string from client's last name
     client_sex = input('Is the client Male or Female (M or F)?:')               #creates string from client's sex
-    client_age = input('Please enter the client\'s age: ')                      #creates string from client's age
+    client_age = int(input('Please enter the client\'s age: '))                      #creates string from client's age
     client_weight = float(input('Please enter the client\'s weight in pounds: '))  #creates string from client's weight
     client_height = float(input('Please enter the client\'s height in inches: '))  #creates string from client's height
     client_activity_level = int(input('Please enter the client\'s activity level (1-5): ')) #creates string from activity
