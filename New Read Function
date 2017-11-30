@@ -14,7 +14,7 @@ def BMRfunc(list):                      #creates function to determine the BMR o
                                         #weight, height, and age all should be floating point numbers
 
     type = list[1]
-    age = float(list[2])
+    age = int(list[2])
     weight = float(list[3])
     height = float(list[4])
     BMR = 0
