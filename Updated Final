@@ -1,4 +1,4 @@
-ef read_dictionary_file():            #creates function to load file
+def read_dictionary_file():            #creates function to load file
     try:
         initial_file = input('What file should be loaded?: ')
         client_dict = {}                            #creates a blank client dictionary
